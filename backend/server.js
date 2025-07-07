@@ -13,7 +13,7 @@ const PORT = process.env.PORT;
 
 app.use(
   cors({
-    // origin: process.env.FRONTEND_URL , // your Vite frontend URL
+    origin: ["https://streamify-seven-xi.vercel.app", "http://localhost:5173"],
     credentials: true,
   })
 );
