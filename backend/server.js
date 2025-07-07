@@ -13,7 +13,7 @@ const PORT = process.env.PORT;
 
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL , // your Vite frontend URL
+    // origin: process.env.FRONTEND_URL , // your Vite frontend URL
     credentials: true,
   })
 );
